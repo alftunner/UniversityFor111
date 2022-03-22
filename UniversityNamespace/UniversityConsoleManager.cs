@@ -55,5 +55,14 @@ public class UniversityConsoleManager
             Console.WriteLine($"Группа: {student.Group}");
         }
     }
+
+    public static void printStudentInfo(Student student)
+    {
+        Console.WriteLine("---------------");
+        Console.WriteLine($"ID: {student.StudentId}");
+        Console.WriteLine($"Фио: {student.Fio}");
+        Console.WriteLine($"Факультет: {student.Facultet}");
+        Console.WriteLine($"Группа: {student.Group}");
+    }
     
 }
